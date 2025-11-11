@@ -1,470 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RobertaRommanel</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <style>
-    /* ----------- ESTILO GERAL ----------- */
-    body {
-      font-family: 'Playfair Display', serif;
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: #333;
-    }
-
-    header {
-      background-color: #6a0dad;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #eee;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #6a0dad;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #4B0082;
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      color: #6a0dad;
-    }
-
-    /* ----------- PRODUTOS ----------- */
-    .produto {
-      border: 1px solid #ccc;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      transition: 0.3s;
-    }
-
-    .produto:hover {
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      transform: translateY(-3px);
-    }
-
-    .produto img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
-
-    /* ----------- BOTÕES WHATSAPP ----------- */
-    .whatsapp {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background-color: #25D366;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .whatsapp svg {
-      width: 20px;
-      height: 20px;
-      fill: white;
-    }
-
-    .whatsapp:hover {
-      background-color: #1da851;
-    }
-
-    .whatsapp-fixo {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 12px 18px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-      transition: 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .whatsapp-fixo svg {
-      width: 22px;
-      height: 22px;
-      fill: white;
-    }
-
-    .whatsapp-fixo:hover {
-      background-color: #1da851;
-    }
-
-    /* ----------- REDES SOCIAIS ----------- */
-    .redes {
-      display: flex;
-      gap: 15px;
-      margin-top: 10px;
-    }
-
-    .redes a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 35px;
-      height: 35px;
-      border-radius: 50%;
-      background-color: #6a0dad;
-      transition: 0.3s;
-    }
-
-    .redes a:hover {
-      background-color: #4B0082;
-    }
-
-    .redes svg {
-      width: 20px;
-      height: 20px;
-      fill: white;
-    }
-
-    footer {
-      background-color: #6a0dad;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-
-    /* ----------- RESPONSIVIDADE ----------- */
-    @media (max-width: 600px) {
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-      .produto {
-        text-align: center;
-      }
-      .redes {
-        justify-content: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
     <h1>RobertaRommanel</h1>
     <p>Revendedora Rommanel</p>
+    <nav>
+      <ul>
+        <li><a href="#rommanel">Rommanel</a></li>
+        <li><a href="#tupperware">Tupperware</a></li>
+        <li><a href="#natura">Natura</a></li>
+        <li><a href="#boticario">O Boticário</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <nav>
-    <a href="#Rommanel">Rommanel</a>
-    <a href="#tupperware">Tupperware</a>
-    <a href="#natura">Natura</a>
-    <a href="#boticario">O Boticário</a>
-  </nav>
 
   <main>
     <section id="sobre">
       <h2>Quem Sou Eu</h2>
       <p>Olá! Meu nome é Maria das Graças, mais conhecida como Roberta. Sou revendedora, cuidadora, mãe e apaixonada por produtos de qualidade e confiança. Trabalho com marcas reconhecidas como <strong>Rommanel</strong>, <strong>Tupperware</strong>, <strong>Natura</strong> e <strong>O Boticário</strong>, oferecendo atendimento de mais alta qualidade e produtos selecionados para meus clientes. Estou aqui para ajudar você a encontrar o que precisa com praticidade e carinho!</p>
-
+      
       <p>Me siga nas redes sociais:</p>
       <div class="redes">
-        <a href="https://www.instagram.com/seuusuarioInstagram" target="_blank" title="Instagram">
+        <a href="https://www.instagram.com/robertarommanell" target="_blank" title="Instagram">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm6.5.25a1.25 1.25 0 1 1 0 2.5a1.25 1.25 0 0 1 0-2.5zM12 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6z"/></svg>
         </a>
 
-        <a href="https://www.facebook.com/seuusuarioFacebook" target="_blank" title="Facebook">
+        <a href="https://www.facebook.com/roberta.cruz.520" target="_blank" title="Facebook">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-3h2.4V9.5c0-2.4 1.4-3.8 3.6-3.8c1 0 2 .2 2 .2v2.2h-1.1c-1.1 0-1.5.7-1.5 1.4V12H16l-.4 3h-2.4v7A10 10 0 0 0 22 12z"/></svg>
         </a>
       </div>
     </section>
 
-    <section id="Rommanel">
-      <h2>Joias Rommanel</h2>
-      <div class="produto">
-        <img src="https://via.placeholder.com/300x200?text=Joia+1" alt="Colar folheado Rommanel dourado">
-        <h3>Colar Rommanel</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="whatsapp" href="https://wa.me/5519991985831" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-          Comprar via WhatsApp
-        </a>
+    <section class="produtos">
+      <div class="produto" id="rommanel">
+        <h3>Rommanel</h3>
+        <img src="colar.webp" alt="Colar Rommanel">
+        <p>Colar Rommanel</p>
       </div>
-    </section>
+      <div class="produto" id="rommanel">
+  <h3>Rommanel</h3>
+  <img src="novo-produto.jpg" alt="Descrição do produto">
+  <p>Descrição do produto</p>
+</div>
 
-    <section id="tupperware">
-      <h2>Tupperware</h2>
-      <div class="produto">
-        <img src="https://via.placeholder.com/300x200?text=Tupperware+1" alt="Kit de potes Tupperware coloridos">
-        <h3>Kit de Potes</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="whatsapp" href="https://wa.me/5519991985831" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-          Comprar via WhatsApp
-        </a>
+      <div class="produto" id="tupperware">
+        <h3>Tupperware</h3>
+        <img src="kit-tupper-tupperware-preto-e-branco.jpg" alt="Kit de Potes">
+        <p>Kit de Potes</p>
       </div>
-    </section>
 
-    <section id="natura">
-      <h2>Natura</h2>
-      <div class="produto">
-        <img src="https://via.placeholder.com/300x200?text=Natura+1" alt="Perfume Essencial Natura">
-        <h3>Perfume Essencial</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="whatsapp" href="https://wa.me/5519991985831" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-          Comprar via WhatsApp
-        </a>
+      <div class="produto" id="natura">
+        <h3>Natura</h3>
+        <img src="img.site.jpg" alt="Perfume Natura">
+        <p>Essencial Masculino</p>
       </div>
-    </section>
 
-    <section id="boticario">
-      <h2>O Boticário</h2>
-      <div class="produto">
-        <img src="https://via.placeholder.com/300x200?text=Boticario+1" alt="Creme hidratante O Boticário">
-        <h3>Creme Hidratante</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="whatsapp" href="https://wa.me/5519991985831" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-          Comprar via WhatsApp
-        </a>
+      <div class="produto" id="O Boticario">
+        <h3>O Boticário</h3>
+        <img src="lily.webp" alt="Creme O Boticário">
+        <p>Creme Lily</p>
       </div>
-    </section>
-
-    <section id="contato">
-      <h2>Fale Comigo</h2>
-      <p>Entre em contato pelo WhatsApp ou pelas redes sociais para saber mais sobre os produtos!</p>
-      <a class="whatsapp" href="https://wa.me/5519991985831" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-        Chamar no WhatsApp
-      </a>
     </section>
   </main>
 
-  <a class="whatsapp-fixo" href="https://wa.me/5519991985831" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-    Fale comigo
-  </a>
+  <a href="https://wa.me/5599999999999" class="whatsapp" target="_blank">💬 Fale comigo</a>
 
   <footer>
-    <p>&copy; 2025 RobertaRommanel - Todos os direitos reservados.</p>
+    <p>© 2025 RobertaRommanel - Todos os direitos reservados</p>
   </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roberta Rommanel</title>
-  <style>
-    body {
-      font-family: 'Playfair Display', serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    header {
-      background: linear-gradient(90deg, #b8860b, #daa520);
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 1.8rem;
-      font-weight: 600;
-      letter-spacing: 1px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-
-    main {
-      padding: 2rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .produto {
-      background: white;
-      border-radius: 15px;
-      padding: 1rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      opacity: 0;
-      transform: translateY(40px);
-    }
-
-    .produto.fade-in {
-      opacity: 1;
-      transform: translateY(0);
-      transition: opacity 0.8s ease, transform 0.8s ease;
-    }
-
-    .produto:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
-
-    .produto img {
-      width: 100%;
-      border-radius: 10px;
-      object-fit: cover;
-      max-height: 240px;
-    }
-
-    .produto h3 {
-      margin: 0.8rem 0 0.5rem;
-      color: #b8860b;
-      font-size: 1.2rem;
-    }
-
-    .produto p {
-      font-size: 0.95rem;
-      color: #555;
-      margin-bottom: 1rem;
-    }
-
-    .whatsapp-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #25d366;
-      color: white;
-      padding: 10px 18px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background 0.3s;
-    }
-
-    .whatsapp-btn:hover {
-      background: #1ebe5c;
-    }
-
-    .whatsapp-btn svg {
-      width: 20px;
-      height: 20px;
-      fill: white;
-    }
-
-    .whatsapp-fixo {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25d366;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 30px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      text-decoration: none;
-      font-weight: 500;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      transition: background 0.3s ease;
-    }
-
-    .whatsapp-fixo:hover {
-      background: #1ebe5c;
-    }
-
-    .whatsapp-fixo svg {
-      width: 20px;
-      height: 20px;
-      fill: white;
-    }
-
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-
-  <header>✨ Coleção Roberta Rommanel ✨</header>
-
-  <main>
-    <section class="produto">
-      <img src="https://i.imgur.com/hQv3V3k.jpg" alt="Brinco Dourado">
-      <h3>Brinco Dourado</h3>
-      <p>Peça elegante, ideal para ocasiões especiais. Banhado a ouro com design exclusivo.</p>
-      <a class="whatsapp-btn" href="https://wa.me/5519991985831?text=Olá! Gostei do brinco dourado!" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-        Chamar no WhatsApp
-      </a>
-    </section>
-
-    <section class="produto">
-      <img src="https://i.imgur.com/z2OQO3G.jpg" alt="Colar com Pingente">
-      <h3>Colar com Pingente</h3>
-      <p>Um toque delicado e sofisticado. Perfeito para destacar seu visual.</p>
-      <a class="whatsapp-btn" href="https://wa.me/5519991985831?text=Olá! Gostei do colar com pingente!" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-        Chamar no WhatsApp
-      </a>
-    </section>
-  </main>
-
-  <a class="whatsapp-fixo" href="https://wa.me/5519991985831" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.04 2a9.94 9.94 0 0 0-8.56 15.07L2 22l5.1-1.47A9.94 9.94 0 1 0 12.04 2zm5.74 14.4c-.23.66-1.35 1.26-1.86 1.33c-.48.07-1.07.1-1.73-.11c-.4-.13-.91-.29-1.56-.57c-2.74-1.18-4.51-3.95-4.65-4.13c-.13-.18-1.1-1.47-1.1-2.81c0-1.33.7-1.99.94-2.26c.24-.27.52-.34.7-.34h.51c.16 0 .39-.06.61.47c.23.55.78 1.9.85 2.04c.07.13.12.29.03.47c-.09.18-.13.29-.27.44s-.28.32-.4.43c-.13.11-.27.23-.12.45c.15.22.68 1.12 1.46 1.82c1 .9 1.85 1.19 2.09 1.32s.33.11.46-.07s.53-.62.67-.83s.29-.18.49-.11c.2.07 1.29.61 1.51.72s.37.17.43.27c.06.1.06.68-.17 1.34z"/></svg>
-    Fale comigo
-  </a>
-
-  <footer>
-    <p>&copy; 2025 RobertaRommanel - Todos os direitos reservados.</p>
-  </footer>
-
-  <script>
-    // Fade-in suave com Intersection Observer
-    const produtos = document.querySelectorAll('.produto');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('fade-in');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.2 });
-
-    produtos.forEach(produto => observer.observe(produto));
-  </script>
-
 </body>
 </html>

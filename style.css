@@ -1,0 +1,140 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #c89b00;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 20px;
+  margin: 5px 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+}
+
+nav a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seção Quem Sou Eu */
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#sobre h2 {
+  color: purple;
+  font-size: 28px;
+}
+
+#sobre p {
+  line-height: 1.6;
+}
+
+#sobre .redes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#sobre .redes a svg {
+  width: 30px;
+  height: 30px;
+  fill: purple;
+  transition: transform 0.2s;
+}
+
+#sobre .redes a:hover svg {
+  transform: scale(1.2);
+}
+
+/* Produtos */
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.produto {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  width: 230px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto h3 {
+  color: purple;
+  margin-bottom: 10px;
+}
+
+/* Botão WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.whatsapp:hover {
+  background: #1ebe5d;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background: #c89b00;
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+}
