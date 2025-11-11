@@ -7,7 +7,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #c89b00;
+  background-color: #7b00ff;
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -44,7 +44,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Seção Quem Sou Eu */
+/* Quem Sou Eu */
 #sobre {
   display: flex;
   flex-direction: column;
@@ -82,14 +82,37 @@ nav a:hover {
   transform: scale(1.2);
 }
 
+/* Foto da Roberta */
+.foto-sobre {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
 /* Produtos */
 .produtos {
-  display: flex;
-  justify-content: center;
+  display: none;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   margin: 60px auto;
   max-width: 1000px;
+}
+
+.produtos.ativo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.produtos h2 {
+  width: 100%;
+  text-align: center;
+  color: purple;
 }
 
 .produto {
@@ -133,7 +156,7 @@ nav a:hover {
 /* Rodapé */
 footer {
   text-align: center;
-  background: #c89b00;
+  background: #7b00ff;
   color: white;
   padding: 15px;
   margin-top: 50px;
